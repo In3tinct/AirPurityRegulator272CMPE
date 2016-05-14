@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" ng-app=ngMap>
+
+<head>
+<script src="js/highcharts.js"></script>
+<script src="js/exporting.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="refresh" content="5" >  
+<meta name="description" content="Simple Map">
+<meta name="keywords" content="ng-map,AngularJS,center">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<!-- <script src="js/maps.js?libraries=placeses,visualization,drawing,geometry,places"></script>
+<script src="js/angular.js"></script>
+<script src="js/ng-map.js"></script> -->
+    <title>CO2 Sensor | Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/fonts.css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Air Purity Regulator</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >Symptoms</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >Chart</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Map</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+     	 
+    <header id="top" class="header">
+      
+    
+        <div class="text-vertical-center">
+            <h1>Air Purity Regulator</h1>
+            <h3>A CO2 Sensor to monitor a Sick Building Syndrome Prone Environment</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Air Quality Near You</a>
+        </div>
+    </header>
+    
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                <img src="symptoms.jpg"/>    
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+       
+    </section>
+
+    <!-- Services -->
+         <!-- /.container -->
+    </section>
+ 
+    <!-- Callout -->
+    <aside class="callout">
+        <div id=container >
+        </div>
+    </aside>
+        <div class="container">
+            <div class="row">
+
+    <!-- Map -->
+    <section id="contact" class="map">
+
+          <!-- <ng-map center="current-location" zoom="16">
+    <marker position="current-location" title="Hello World!"></marker>
+    </ng-map> -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    <section id="contact" class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                
+                    <h4><strong>An Initiative By</strong>
+                    </h4>
+                    <img src="logo.png"/>
+                    <p>Perpetual Coding Squad<br>101 San Fernando CA,95112</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">PCS@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Perpetual Coding Squad</p>
+                </div>
+            </div>
+        </div>
+        </section>
+    </footer>
+ <input type="hidden" id="data" value=<%=JSON.stringify(co2) %> >
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    var value=130;
+    var div=document.getElementById("top");
+    var co2;
+    //alert(co2);
+    console.log(document.getElementById("data"));	
+    //var localObj = JSON.parse(document.getElementById("data"));
+    console.log(document.getElementById("data").value);
+    co2=JSON.parse(document.getElementById("data").value);
+    console.log(co2[0]);
+    console.log(parseInt(co2[0]));
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    
+    var c=0;
+    $(function () {
+        $(document).ready(function () {
+            Highcharts.setOptions({
+                global: {
+                    useUTC: false
+                }
+            });
+			
+            var chart=new Highcharts.Chart({
+                /* chart: {
+                    type: 'spline',
+                    backgroundColor: 'black',
+                    renderTo: 'container',
+                    animation: Highcharts.svg, // don't animate in old IE
+                    marginRight: 10,
+                    events: {
+                        load: function () {
+
+                            // set up the updating of the chart each second
+                            var series = this.series[0];
+                            setInterval(function () {
+                                /* var x = (new Date()).getTime(), // current time
+                                    y = Math.random();
+                                //conso
+                                if(y>.5)
+                            	{
+                            	div.className="header1";
+                            	}
+                            else
+                            	{
+                            	div.className="header";
+                            	}
+                                series.addPoint([x, y], true, true); 
+                                --------------------------------------------
+                                for(var i=0;i<co2.length;i++)
+                            	{
+                            		var x = (new Date()).getTime();
+                            		var y=parseInt(co2[i]);
+                            		if(y>1000)
+                                	{
+                                	div.className="header1";
+                                	}
+                                else
+                                	{
+                                	div.className="header";
+                                	}
+                            		series.addPoint([x, y], true, true);
+                            	}
+                            }, 100000); 
+                            
+                            
+                        }
+                    } 
+                }, 
+                title: {
+                	
+                    text: 'Live random data',
+                    style: {
+                        color: 'white',
+                        font: 'bold 16px "Trebuchet MS", Verdana, sans-serif'
+                     }
+                },
+                xAxis: {
+                    type: 'datetime',
+                    tickPixelInterval: 150,
+                    style: {
+                        color: 'white',
+                        font: 'bold 16px "Trebuchet MS", Verdana, sans-serif'
+                     }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Value',
+                        style: {
+                            color: 'white',
+                            font: 'bold 16px "Trebuchet MS", Verdana, sans-serif'
+                         }
+                    },
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: 'white'
+                    }]
+                },
+                tooltip: {
+                    formatter: function () {
+                        return '<b>' + this.series.name + '</b><br/>' +
+                            Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' +
+                            Highcharts.numberFormat(this.y, 2);
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                exporting: {
+                    enabled: false
+                },
+                series: [{
+                    name: 'Random data',
+                    data: (function () {
+                        // generate an array of random data
+                        var data = [],
+                            time = (new Date()).getTime(),
+                            i;
+
+                        for (i =0 ; i <= co2.length; i += 1) {
+                            data.push({
+                                x: time + i * 1000,
+                                y: parseInt(co2[i])
+                            });
+                        }
+                        return data;
+                    }())
+                }] */
+                chart: {
+                    type: 'spline',
+                    animation: Highcharts.svg, // don't animate in old IE
+                    marginRight: 10,
+                    renderTo: 'container',
+                    events: {
+                        load: function () {
+
+                            // set up the updating of the chart each second
+                            var series = this.series[0];
+                            setInterval(function () {
+                                
+                            	
+                            		var x = c;
+                            		var y=parseInt(co2[co2.length-1]);
+                            		console.log(y)
+                            		if(y>1500)
+                                	{
+                                	div.className="header1";
+                                	}
+                                else
+                                	{
+                                	div.className="header";
+                                	}
+                            		series.addPoint([x, y], true, true);
+                            		c++;
+                            	
+                            }, 1000);
+                        }
+                    }
+                },
+                title: {
+                    text: 'Live CO2 reading (ppm)'
+                },
+                xAxis: {
+                    type: 'datetime',
+                    tickPixelInterval: 150
+                },
+                yAxis: {
+                    title: {
+                        text: 'Value'
+                    },
+                    plotLines: [{
+                        value: 1,
+                        width: 1,
+                        color: '#808080'
+                    }]
+                },
+                tooltip: {
+                    formatter: function () {
+                        return '<b>' + this.series.name + '</b><br/>' +
+                            Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' +
+                            Highcharts.numberFormat(this.y, 2);
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                exporting: {
+                    enabled: false
+                },
+                series: [{
+                    name: 'CO2 level',
+                    data: (function () {
+                        // generate an array of random data
+                        var data = [],
+                            time = (new Date()).getTime(),
+                            i;
+
+                        for (i = 0; i <= co2.length-1; i += 1) {
+                            data.push({
+                                x: c ,
+                                y: parseInt(co2[i])
+                            });
+                            c++;
+                        }
+                        return data;
+                    }())
+                }]
+            });
+        });
+    });
+    </script>
+
+</body>
+
+</html>

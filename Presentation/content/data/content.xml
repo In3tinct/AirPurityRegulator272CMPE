@@ -1,0 +1,816 @@
+<zuiprezi>
+  <version>10</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-5108.847897158188" y="-4816.109024617506" width="10217.695794316376" height="9632.218049235034"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>en</language>
+      </languages>
+      <spellcheck active="false"/>
+      <mode type="normal"/>
+    </settings>
+    <object id="70_34813587" type="image" x="2776.344559217962" y="789.8426438784413" r="18.755115519401087" s="0.22110707081575623">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="14_34813587" type="image" x="369.6923270696902" y="-572.2346316563626" r="18.755115519401087" s="1.6192539591816688">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="33_34813587" type="text" x="1105.727149637164" y="-642.5200438734009" r="0" s="4.491452592968672" class="head">
+      <height>115.2</height>
+      <width>159.928537314115</width>
+      <p>
+        <text weight="bold"><![CDATA[What are safe ]]></text>
+      </p>
+      <p>
+        <text weight="bold"><![CDATA[levels of CO and CO2 ]]></text>
+      </p>
+      <p>
+        <text weight="bold"><![CDATA[in rooms?]]></text>
+      </p>
+    </object>
+    <object id="35_34813587" type="persistentgroup" x="759.6239277137036" y="-572.2346316563626" r="0" s="1.0659545235215955">
+      <m o="14_34813587"/>
+      <m o="33_34813587"/>
+    </object>
+    <object id="0" type="button" x="17.16808748512493" y="-1264.9098233544512" r="0" s="3.6431917096331854" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1637.0837411709358</w>
+        <h>778.2958535526759</h>
+      </size>
+    </object>
+    <object id="1_34813587" type="button" x="-1410.3141716840873" y="-1013.7672122910166" r="0" s="1.738969605524266" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1637.0837411709358</w>
+        <h>778.2958535526759</h>
+      </size>
+    </object>
+    <object id="4_34813587" type="image" x="-236.72885223043858" y="-1159.3762471306557" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="5_34813587" type="image" x="6.088192099696566" y="-876.6248485731184" r="18.755115519401087" s="1.6192539591816686">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="6_34813587" type="image" x="-624.2841980131717" y="-1090.6555192642174" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="26_34813587" type="button" x="-350.9104257074926" y="12.133875985650306" r="57.99618652009112" s="1.267186778150109" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1637.0837411709358</w>
+        <h>778.2958535526759</h>
+      </size>
+    </object>
+    <object id="7_34813587" type="image" x="-582.3335966395963" y="-804.1639335654575" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="9_34813587" type="image" x="-106.0478401620444" y="-1574.8821614997792" r="18.755115519401087" s="1.6192539591816686">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="10_34813587" type="image" x="325.54514177018535" y="-1324.2587926046335" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="11_34813587" type="image" x="-493.6031859447766" y="-1506.1614336333405" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="13_34813587" type="button" x="674.4159398893448" y="-571.6781338428092" r="0" s="0.9771684385756305" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1637.0837411709358</w>
+        <h>778.2958535526759</h>
+      </size>
+    </object>
+    <object id="16_34813587" type="image" x="-286.78629054494604" y="-403.54893006429603" r="18.755115519401034" s="1.6192539591816688">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="20_34813587" type="image" x="156.2718560222908" y="-825.515601123185" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="23_34813587" type="image" x="-1079.1837028651162" y="-769.3733138025988" r="18.755115519401087" s="1.6192539591816693">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="27_34813587" type="image" x="-952.0428293104972" y="-1395.8315111250552" r="18.75511551940108" s="1.6192539591816693">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="45_34813587" type="image" x="-11.985966308845528" y="-1852.077430429876" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="3_34813587" type="button" x="531.9592416637759" y="-2130.8527244012957" r="-134.21760919857002" s="0.8281486967933808" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1637.0837411709358</w>
+        <h>778.2958535526759</h>
+      </size>
+    </object>
+    <object id="46_34813587" type="image" x="689.1374626573999" y="-1717.986329910905" r="19.309199818713672" s="1.679192131218941">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="47_34813587" type="image" x="-329.2158183660756" y="-1914.6446115826316" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="48_34813587" type="image" x="2.3023711095573085" y="-1556.290529435561" r="18.755115519401087" s="1.6192539591816686">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="8_34813587" type="button" x="1561.2524321129983" y="-1505.1967453945958" r="57.99618652009111" s="0.8281486967933808" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1637.0837411709358</w>
+        <h>778.2958535526759</h>
+      </size>
+    </object>
+    <object id="49_34813587" type="image" x="1356.420607753338" y="-1880.4140754756106" r="18.755115519401077" s="1.4157037816956786">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="50_34813587" type="image" x="1033.2037738374233" y="-1787.7353360269904" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="2_34813587" type="button" x="-743.1084013894699" y="-2153.642952302919" r="90" s="1.0169350461093607" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1637.0837411709358</w>
+        <h>778.2958535526759</h>
+      </size>
+    </object>
+    <object id="51_34813587" type="image" x="-680.6327902141177" y="-1866.2743711889752" r="18.75511551940108" s="1.6192539591816693">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="53_34813587" type="image" x="-180.8599314309948" y="-1223.5178250362974" r="18.755115519401084" s="1.619253959181669">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="29_34813587" type="text" x="-1388.8504334986653" y="-1259.5486944298068" r="0" s="9.89167348638246" class="head">
+      <height>57.6</height>
+      <width>275.9185692718239</width>
+      <p>
+        <text weight="bold"><![CDATA[AIR PURITY REGULATOR]]></text>
+      </p>
+    </object>
+    <object id="18_34813587" type="persistentgroup" x="-1388.850433498665" y="-1353.9515050955617" r="0" s="1.8969733815565577">
+      <m o="27_34813587"/>
+      <m o="29_34813587"/>
+    </object>
+    <object id="38_34813587" type="text" x="-456.71696597326326" y="-2545.6892726074357" r="90" s="5.407401562318627" class="head">
+      <height>28.8</height>
+      <width>-136.716</width>
+      <p>
+        <text><![CDATA[Introduction]]></text>
+      </p>
+    </object>
+    <object id="39_34813587" type="persistentgroup" x="-680.6327902141176" y="-2222.0998993746553" r="90" s="1.3530449043108435">
+      <m o="51_34813587"/>
+      <m o="38_34813587"/>
+    </object>
+    <object id="43_34813587" type="text" x="92.10023145658046" y="-2291.1696954337476" r="-134.21760919857005" s="2.478330679341829" class="head">
+      <height>86.4</height>
+      <width>277.2120091629608</width>
+      <p>
+        <text weight="bold"><![CDATA[A description of a problem within the domain.]]></text>
+      </p>
+    </object>
+    <object id="22_34813587" type="persistentgroup" x="396.8839227484289" y="-1989.3745879147607" r="-134.21760919857002" s="1.362430626307776">
+      <m o="46_34813587"/>
+      <m o="43_34813587"/>
+    </object>
+    <object id="54_34813587" type="text" x="337.4506451191552" y="-2395.5239954166996" r="-134.21760919857002" s="1.0125937013599873" class="head">
+      <height>230.40000000000003</height>
+      <width>639.3</width>
+      <p align="justify">
+        <text color="0"><![CDATA[It is certainly a good idea to measure the air quality of the place we breathe in. Monitoring the Carbon Dioxide is the easiest way to check if the facility is encapsulating gases. Because all other gases follow the same trend as CO2, this gas is used as a marker for air quality. High CO2 level on its own is an unfavorable condition, it causes oxygen level in the body to decrease, hampering the flow of oxygen to the brain. ]]></text>
+      </p>
+    </object>
+    <object id="0_34813587" type="text" x="-2136.735889020046" y="-788.4928826573802" r="0" s="2.539529726515067" class="head">
+      <height>115.2</height>
+      <width>478.3999999999999</width>
+      <p align="justify">
+        <text color="0"><![CDATA[A CO2 sensor to monitor a ]]></text>
+      </p>
+      <p align="justify">
+        <text color="0"><![CDATA["Sick Building Syndrome" ]]></text>
+      </p>
+      <p align="justify">
+        <text color="0"><![CDATA[prone environment ]]></text>
+      </p>
+      <p align="justify">
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="19_34813587" type="persistentgroup" x="-1754.0238796917672" y="-769.3733138025988" r="0" s="1.8969733815565577">
+      <m o="23_34813587"/>
+      <m o="0_34813587"/>
+    </object>
+    <object id="25_34813587" type="text" x="1948.0047779799902" y="-1352.0333440662732" r="57.99618652009112" s="5.425183223964371" class="head">
+      <height>28.8</height>
+      <width>-92.46</width>
+      <p>
+        <text weight="bold"><![CDATA[Solution]]></text>
+      </p>
+    </object>
+    <object id="58_34813587" type="persistentgroup" x="1613.9534157669775" y="-1636.6733986203587" r="57.99618652009111" s="1.2045263500080379">
+      <m o="49_34813587"/>
+      <m o="25_34813587"/>
+    </object>
+    <object id="28_34813587" type="text" x="1708.4201568428186" y="-1281.1989028860512" r="57.99618652009112" s="1.2311709916711964" class="head">
+      <height>230.40000000000003</height>
+      <width>586.45</width>
+      <p align="justify">
+        <text color="0"><![CDATA[Our proposed system, when installed in appropriate locations, may alert the occupants of the high CO2 levels, also resolving the situation by triggering the air purifier. Carbon dioxide accumulation is normally related directly to the number of occupants. Also, carbon dioxide by nature is heavier than air, and therefore tends to accumulate in low areas such as basements. ]]></text>
+      </p>
+    </object>
+    <object id="30_34813587" type="text" x="1490.9876494658286" y="-1205.342368644085" r="57.99618652009112" s="1.2311709916711964" class="head">
+      <height>86.4</height>
+      <width>669.0999999999999</width>
+      <p align="justify">
+        <text color="0"><![CDATA[This regulator, further can also be installed in hospitals and basement workshops in order to diminish the chances of any CO2 related medical emergency.]]></text>
+      </p>
+    </object>
+    <object id="55_34813587" type="persistentgroup" x="2.2737367544323206e-13" y="1.0800249583553523e-11" r="57.99618652009112" s="1.3823240958179175">
+      <m o="16_34813587"/>
+      <m o="36_34813587"/>
+    </object>
+    <object id="57_34813587" type="text" x="552.2894469427597" y="-2438.606276402889" r="-134.21760919857002" s="1.0125937013599873" class="head">
+      <height>86.4</height>
+      <width>803.45</width>
+      <p align="justify">
+        <text color="0"><![CDATA[Main CO2 health effects include Vasodilation, reduced Cell Oxygen Levels, Nerve Stabilization etc. Common symptoms include feeling drowsy, having headaches, and functioning at lower activity levels. ]]></text>
+      </p>
+    </object>
+    <object id="61_34813587" type="button" x="2602.2689979203337" y="865.3810899697131" r="0" s="0.4013840068699802" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1637.0837411709358</w>
+        <h>778.2958535526759</h>
+      </size>
+    </object>
+    <object id="60_34813587" type="image" x="2398.494177208538" y="897.913129039276" r="18.75511551940109" s="0.5092877713395595">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="62_34813587" type="text" x="2589.9936662677023" y="753.0117519829489" r="0" s="1.1744039889737357" class="head">
+      <height>28.8</height>
+      <width>-164.664</width>
+      <p>
+        <text><![CDATA[Team Members]]></text>
+      </p>
+    </object>
+    <object id="63_34813587" type="image" x="2870.9500000000007" y="804.6000000000006" r="18.755115519401087" s="0.22110707081575626">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="65_34813587" type="image" x="2739.0715447462608" y="842.8693921410074" r="18.755115519401087" s="0.22110707081575623">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="67_34813587" type="image" x="2882.4730967790274" y="943.9705688111356" r="18.755115519401087" s="0.22110707081575623">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="68_34813587" type="image" x="2838.200586798244" y="866.6402645677405" r="18.755115519401087" s="0.22110707081575626">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="69_34813587" type="image" x="2847.6581210825657" y="757.8110454552915" r="18.755115519401087" s="0.22110707081575623">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="74_34813587" type="shape" x="2577.1298177027943" y="876.6575756555064" r="0" s="0.41942999606204834" class="line1">
+      <geom type="arrow">
+        <sp>-155.37121452496035 12.09603879874686</sp>
+        <ep>155.37121452496035 12.09603879874686</ep>
+        <b>-24.19207759749372</b>
+        <t>10</t>
+      </geom>
+    </object>
+    <object id="0_198645897" type="text" x="-850.7394835051858" y="-2536.5717197060276" r="90" s="1.1396104236891922" class="head">
+      <height>403.2000000000001</height>
+      <width>734.5226603620522</width>
+      <p>
+        <text color="0"><![CDATA[As the title suggests, our project will work as an automation system and monitor the air quality by detecting the Carbon Dioxide levels in the local space, the sensor is alive in. The system will then turn on the air purifier, which is a part of the system, if the air quality value drops below a certain threshold value. The system will consist of an active sensor placed in the vicinity of our target location (home, hospital, warehouse etc.). The sensor will then be interfaced with a Wi-Fi chip which will push the sensor data into a browser in any connected device. Finally, the network will then be connected to an electric socket which will turn on/off the air purifier interfaced to it. Our wireless sensor will have a traditional CO2 sensor connected to an Arduino board. The Arduino board will be personalized using codes written in Arduino programming language in the Arduino Development Environment. ]]></text>
+      </p>
+    </object>
+    <object id="1_198645897" type="image" x="-853.95" y="-445.1" r="18.755115519401087" s="1.6192539591816695">
+      <source w="296" h="339">3214008349<url>3214008349.swf</url></source>
+      <sourceUrl>cube.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3214008349</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/5/2/7faa2d9efc76abc1b5df90129e63f3129f21f.swf</url></resource></object>
+    <object id="2_198645897" type="text" x="-132.55" y="428.65" r="57.99618652009112" s="1.992668036044214" class="head">
+      <height>460.8</height>
+      <width>558.9630424638603</width>
+      <p listType="bullet" indent="1">
+        <text color="0"><![CDATA[250-350 PPM- Normal Background Concentration]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="0"><![CDATA[350-1000PPM-Concentration typical of occupied indoor spaces with good air exchange]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="0"><![CDATA[1000-2000PPM-Complaints of drowsiness and poor air.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="0"><![CDATA[2000-5000PPM-Headaches, sleepiness and stagnant, stale, stuffy air. Poor concentration, loss of attention, increased heart rate and slight nausea may also be present.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="0"><![CDATA[5000-Workplace exposure limit (as 8-hour TWA) in most jurisdictions.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="0"><![CDATA[>40000- Exposure may lead to serious oxygen deprivation resulting in permanent brain damage, coma, even death.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="3_198645897" type="text" x="2744.55" y="935.0999999999999" r="0" s="1.0126533943699745" class="head">
+      <height>115.2</height>
+      <width>-188.50799999999998</width>
+      <p>
+        <text color="0"><![CDATA[Ajay Modi]]></text>
+      </p>
+      <p>
+        <text color="0"><![CDATA[Ashay Argal]]></text>
+      </p>
+      <p>
+        <text color="0"><![CDATA[Siddharth Gupta]]></text>
+      </p>
+      <p>
+        <text color="0"><![CDATA[Vaibhav Agrawal]]></text>
+      </p>
+    </object>
+  </zui-table>
+  <path>
+    <s>
+      <eagle o="0"/>
+    </s>
+    <s>
+      <eagle o="1_34813587"/>
+    </s>
+    <s>
+      <buildin o="18_34813587"/>
+    </s>
+    <s>
+      <buildin o="19_34813587"/>
+    </s>
+    <s>
+      <eagle o="2_34813587"/>
+    </s>
+    <s>
+      <buildin o="39_34813587"/>
+    </s>
+    <s>
+      <eagle o="3_34813587"/>
+    </s>
+    <s>
+      <buildin o="22_34813587"/>
+    </s>
+    <s>
+      <buildin o="54_34813587"/>
+    </s>
+    <s>
+      <buildin o="57_34813587"/>
+    </s>
+    <s>
+      <eagle o="8_34813587"/>
+    </s>
+    <s>
+      <buildin o="58_34813587"/>
+    </s>
+    <s>
+      <buildin o="28_34813587"/>
+    </s>
+    <s>
+      <buildin o="30_34813587"/>
+    </s>
+    <s>
+      <eagle o="13_34813587"/>
+    </s>
+    <s>
+      <buildin o="35_34813587"/>
+    </s>
+    <s>
+      <eagle o="26_34813587"/>
+    </s>
+    <s>
+      <buildin o="55_34813587"/>
+    </s>
+    <s>
+      <eagle o="61_34813587"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('Arimo-Regular.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Arimo;
+}
+
+@font-face
+{
+	src: url('Aleo-Regular.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Aleo;
+}
+
+@font-face
+{
+	src: url('Arimo-BoldItalic.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Arimo;
+}
+
+@font-face
+{
+	src: url('Arimo-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Arimo;
+}
+
+@font-face
+{
+	src: url('Arimo-Bold.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: Arimo;
+}
+
+@font-face
+{
+	src: url('Aleo-BoldItalic.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: Aleo;
+}
+
+@font-face
+{
+	src: url('Aleo-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Aleo;
+}
+
+@font-face
+{
+	src: url('Aleo-Bold.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: Aleo;
+}
+
+.line1
+{
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.line2
+{
+	color: #555;
+	gradEndColor: #555;
+	gradStartColor: #888;
+}
+
+.line3
+{
+	color: #5374ec;
+	gradEndColor: #5374ec;
+	gradStartColor: #5374ec;
+}
+
+.line4
+{
+	color: #66e186;
+	gradEndColor: #66e186;
+	gradStartColor: #66e186;
+}
+
+.line5
+{
+	color: #fa5151;
+	gradEndColor: #fa5151;
+	gradStartColor: #fa5151;
+}
+
+.poly1
+{
+	color: #52bbe9;
+	gradEndColor: #c7c7c4;
+	gradStartColor: #c7c7c4;
+}
+
+.poly2
+{
+	color: #52bbe9;
+	gradEndColor: #000;
+	gradStartColor: #333;
+}
+
+.poly3
+{
+	color: #52bbe9;
+	gradEndColor: #5374ec;
+	gradStartColor: #5374ec;
+}
+
+.poly4
+{
+	color: #52bbe9;
+	gradEndColor: #66e186;
+	gradStartColor: #66e186;
+}
+
+.poly5
+{
+	color: #52bbe9;
+	gradEndColor: #fa5151;
+	gradStartColor: #fa5151;
+}
+
+Background
+{
+	gradEnd: #388fd9;
+	gradStart: #6ce8fa;
+}
+
+Grid
+{
+	color: #3c8aac;
+}
+
+ZArrow
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #fff;
+	gradStartAlpha: 1;
+	gradStartColor: #fff;
+	thickness: 10;
+}
+
+ZCircle
+{
+	borderAlpha: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #fff;
+}
+
+ZFrame.bracket
+{
+	borderAlpha: 0;
+	borderColor: #318bff;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #318bff;
+	gradStartAlpha: 1;
+	gradStartColor: #318bff;
+	padding: 1.03;
+	thickness: 3;
+}
+
+ZFrame.circle
+{
+	borderAlpha: 0;
+	borderColor: #333;
+	borderThickness: 3;
+	gradEndAlpha: 1;
+	gradEndColor: #318bff;
+	gradStartAlpha: 1;
+	gradStartColor: #318bff;
+	padding: 1.03;
+	thickness: 3;
+}
+
+ZFrame.roundrect
+{
+	borderAlpha: 1;
+	borderColor: #318bff;
+	borderThickness: 10;
+	gradEndAlpha: 0.2;
+	gradEndColor: #318bff;
+	gradStartAlpha: 0;
+	gradStartColor: #318bff;
+	padding: 1.03;
+	radius: 1;
+	thickness: 3;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #333;
+	fontFamily: body;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.9;
+	background-color: #e4e4dd;
+	background-padding: 6;
+}
+
+ZLabel.head
+{
+	color: #fff;
+	fontFamily: head;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 0.9;
+	background-color: #f6f1a6;
+	background-padding: 6;
+}
+
+ZLabel.strong
+{
+	color: #333;
+	fontFamily: strong;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.9;
+	background-color: #d3e2ee;
+	background-padding: 6;
+}
+
+ZLine
+{
+	color: #fff;
+}
+
+ZMarker
+{
+	alpha: .65;
+	color: #f0ea82;
+}
+
+ZPath
+{
+	alpha: 1;
+	color: #333;
+	textColor: #fff;
+	thickness: 3;
+}
+
+ZPath Ball.base
+{
+	alpha: 1;
+	fillColor: #333;
+	radius: 12;
+}
+
+ZPath Ball.mid
+{
+	alpha: .5;
+	fillColor: #333;
+	radius: 8;
+}
+
+ZPoly
+{
+	borderAlpha: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+]]></style>
+  <hash>419b7c5d</hash>
+<sync><oid>gkybi6igbfva</oid><title>copy-of-modular</title><hash>419b7c5d</hash></sync><config>iUcldDxbmkvfrkQ6Ab1no3kaHMs6sg5o3wHaCrWZKtujc5/rq1EcARAQeL/oUh7WYMRCsYFOfAdMrSjD6+UWF4gVEITYUB5py4eH0TJdHFKNr0/hZCb8pliC74LOEaan2Omoc4hjM9nwJ3qOaL1nQU/8wo8JVsa2f1EY1WDsHouCLkc2Mt86EKr4LQJvtu5ckKmXphSVAvaI20sSGEOMnKtlGeUYTblLevV2KJJAgWk3Bub83H6aT8oIqLmDI17UHWqJfD+5l0WTxbHWvCykQvr2u3DlronC+rGb3JMUHoL8g0GsN2EK83Qu7KMSwis24dcXpXXxI5wwfo79fPDkwQ==</config></zuiprezi>
